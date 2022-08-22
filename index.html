@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>FileUpload</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <div>
+        <div>
+            <input type="file" id="fupload" accept=".csv">
+            <br /><br />
+        </div>
+        <div>
+            <input id="btnVerErrores" type="button" value="Ver Errores" class="Boton">
+            <input id="btnVerDatos" type="button" value="Ver Datos" class="Boton">
+            <input id="btnGrabar" type="button" value="Grabar" class="Boton">
+            <br /><br />
+            <a id="aExportarTexto" href="#">Exporta a csv</a>
+        </div>
+
+        <!-- <a class="action-label codicon codicon-search-view-icon" aria-label="Search (Ctrl+Shift+F)" style="color: rgba(255, 255, 255, 0.4);">jim</a> -->
+
+        <div class="Mensaje"><span id="spnMensaje"></span><span id="spnProgreso"></span></div>
+        <div id="divPreview"></div>
+
+        <div id="divPopupContainer" class="PopupContainer">
+            <div id="divPopupWindow" class="PopupWindow">
+                <div id="divBarra" class="BarraTitulo">
+                    <span id="spnBarraTitulo">Detalle del producto</span>
+                    <img id="imgCerrar" src="Images/Close.ico" class="IconoGrande" style="top:-30px;left:-30px;float:right" title="Cerrar">
+                    <div class="Cuerpo">
+                        <div class="Fila">
+                            <div class="Ancho20">Código</div>
+                            <div class="Ancho80"><input type="text" style="width:50px" id="txtCodigo"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js.js"></script>
+</body>
+
+</html>

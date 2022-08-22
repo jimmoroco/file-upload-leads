@@ -1,0 +1,133 @@
+body {
+    /* scrollbar-color: red; */
+    background-color: #202124;  /*rgba(30, 30, 30, 0.8);*/
+}
+
+a {
+    text-shadow: 0 0 4px rgb(0 0 0 / 40%);
+    color: white;
+}
+
+input[type=file]
+{
+    text-shadow: 0 0 4px rgb(0 0 0 / 40%);
+    color: white;
+}
+
+.Mensaje
+{
+    /* text-shadow: 0 0 4px rgb(0 0 0 / 40%); */
+    color: white;
+}
+
+table {
+    width: 100%;
+}
+
+.FilaCabecera {
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+}
+
+.FilaDatos {
+    background-color: white;
+    color: black;
+}
+
+.FilaDatos:hover {
+    background-color: yellow;
+    color: blue;
+    /* cursor: pointer; */
+}
+
+.FilaSinDatos {
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.Boton {
+    background-color: #202124; /*blue;*/
+    color: white;
+    font-weight: bold;
+}
+
+.Boton:hover {
+    background-color:white; /*yellow;*/
+    color: #202124;
+    cursor: pointer;
+}
+
+.Navega {
+    width: 60px;
+    height: 30px;
+    color: black;
+    font-weight: bold;
+}
+
+.NavegaFocus {
+    /* width: 60px;
+    height: 30px; */
+    color: white;
+    background-color: black;
+}
+
+
+/* .Navega:hover {
+    width: 40px;
+    height: 30px;    
+    color: white;
+    background-color: black;
+} */
+
+.IconoGrande {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.BarraTitulo {
+    height: 30px;
+    background-color: blue;
+    color: white;
+}
+
+.PopupContainer {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+.PopupWindow {
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    width: 60%;
+    height: 60%;
+    background-color: white;
+    border-color: blue;
+    border-style: solid;
+    border-width: medium;
+}
+
+.Ancho20 {
+    width: 20%;
+}
+
+.Ancho80 {
+    width: 80%;
+}
+
+.Cuerpo {
+    padding: 20px;
+}
+
+.Valida {
+    color: red;
+    font-weight: bold;
+}
